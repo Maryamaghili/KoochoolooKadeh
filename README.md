@@ -18,3 +18,8 @@ View your app in AI Studio: https://ai.studio/apps/be74af05-deab-4b2c-8ea8-0d636
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  base: '/KoochoolooKadeh/',
+})
